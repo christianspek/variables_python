@@ -10,10 +10,15 @@
 # Ejemplos variables de texto
 
 # Ingrese dos palabras y arme combinaciones con ella
+
 palabra_1 = str(input('Ingrese palabra 1:'))
 
 palabra_2 = str(input('Ingrese palabra 2:'))
 
+letras_palabra_1 = palabra_1[0:3]
+print(letras_palabra_1)
+letras_palabra_2 = palabra_2[0:2]
+print(letras_palabra_2)
 # Objetivo:
 # De la primera palabra tome las primeras tres letras,
 # utilice el operador dos puntos :
@@ -27,3 +32,5 @@ palabra_2 = str(input('Ingrese palabra 2:'))
 
 
 # Imprima en pantalla la variable palabra_combinada
+nueva_palabra = letras_palabra_1 + letras_palabra_2
+print(nueva_palabra)

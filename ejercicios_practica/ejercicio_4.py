@@ -16,6 +16,12 @@ palabra_2 = str(input('Ingrese palabra 2:'))
 
 palabra_3 = str(input('Ingrese palabra 3:'))
 
+letra_1 = palabra_1[0]
+letra_2 = palabra_2[0]
+letra_3 = palabra_3[0]
+
+acronimo = letra_1 + letra_2 + letra_3
+print(acronimo)
 # Objetivo:
 # De cada palabra ingresada se utilizará
 # la primera letra para armar un acrónimo, por ejemplo:
